@@ -123,6 +123,7 @@ ol {
   height: 100%;
   width: 212px;
   padding-top: 17px;
+  padding-left: 1px;
 }
 
 .search-form__fieldset-title {
@@ -144,8 +145,8 @@ ol {
   background-color: transparent;
   font-size: inherit;
   font-weight: bold;
-  padding-top: 6px; /*размер верхнего  padding по размеру, указанному в макете*/
-  padding-bottom: 6px; /*размер верхнего  padding по размеру, указанному в макете*/
+  padding-top: 5px; /*6px - размер верхнего  padding по размеру, указанному в макете*/
+  padding-bottom: 5px; /*6px - размер верхнего  padding по размеру, указанному в макете*/
 }
 
 .button:focus {
@@ -228,8 +229,8 @@ ol {
 }
 
 .search-form__submit-button {
-  padding-left: 73.5px; /*размер бокового padding по размеру, указанному в макете*/
-  padding-right: 73.5px; /*размер бокового padding по размеру, указанному в макете*/
+  padding-left: 73px; /*73.5px - размер бокового padding по размеру, указанному в макете*/
+  padding-right: 73px; /*73.5px - размер бокового padding по размеру, указанному в макете*/
   margin-top: auto;
 }
 

@@ -251,9 +251,6 @@ ol {
   line-height: 94%;
   text-transform: uppercase;
   min-height: 210px;
-  display: inline-block;
-  position: relative;
-  bottom: -4px;
 }
 
 .content__accent {

@@ -241,7 +241,7 @@ ol {
   width: 399px;
   height: 100%;
   max-height: 534px;
-  padding-top: 4px;
+  padding-bottom: 0;
 }
 
 .title {
@@ -250,7 +250,10 @@ ol {
   font-size: 75px;
   line-height: 94%;
   text-transform: uppercase;
-  height: 210px;
+  min-height: 210px;
+  display: inline-block;
+  position: relative;
+  bottom: -4px;
 }
 
 .content__accent {
@@ -339,7 +342,7 @@ ol {
   line-height: 100%;
   padding-top: 3px;
   padding-right: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 4px;
 }
 
 .content__video-card-description {
